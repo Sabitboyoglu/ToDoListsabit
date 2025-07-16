@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Sabit Boyoglu",
+    "email": "sabit.27@ehotmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Ada Deli",
+    "email": "ada.deli@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Selin Ürkek",
+    "email": "selin.urkek@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Işılay Ak",
+    "email": "isilay.ak@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Sena Güneş",
+    "email": "sena.gunes@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Deniz Yıldız",
+    "email": "deniz.yildiz@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Mert Kara",
+    "email": "mert.kara@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Ece Demir",
+    "email": "ece.demir@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Baran Toprak",
+    "email": "baran.toprak@example.com"
+  },
+  {
+    "id": 10,
+    "name": "Zeynep Aydın",
+    "email": "zeynep.aydin@example.com"
+  }
+]
