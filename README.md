@@ -50,3 +50,16 @@ Herkesin todo listesi olan bir kullanıcı listesi uygulaması geliştirmek.
 ---
 
 > Gereksiz dosya, component veya karmaşıklıktan kaçın. Görev bitince kodunu teslim etmeye hazır ol.
+
+## Review
+
+* nuxtın otomatik importladığı çoğu şey elden tekrar importlanmış bunlar olmamalı.
+* header ve footer kullanılmamış. app in ismi headerda yazabilir
+* component dosya isimlerinde isim tekrarlaması mevcut. TodoForm ve TodoItem dosyası todo/form.vue ve todo/item.vue olarak kullanılmalı.
+* projede kullanılmayan paketler mevcut autoprefixed, postcss veya eslint gibi paketler halihazırda farklı paketler ile geliyor zaten.
+* çoğu sayfa eslint standartlarına uygun değil.
+* nuxt/ui componentlerini kullanarak kod yoğunluğunu azaltmaya ve zaman kazanmaya özen göster.
+* sayfalar arası route yaparken name parametresi kullanılmalı
+* todolar sayfayı yenilediğimde kaybolmamalı
+* seçili olan kullanıcıyı ve todoyu store üzerinde selected eki ile tutman daha verimli olacaktır. (mesela user store içerisinde: selectedUser değişkenini bekletmen ve tablodan bir etkileşim olduğunda seçilen kullanıcıyı buraya atman daha çok verim sağlar)
+* tema değiştirme seçeneğini layout üzerinde tanımlarsan her yerden ulaşılabilir olur
