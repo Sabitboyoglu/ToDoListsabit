@@ -51,7 +51,7 @@ onMounted(() => {
   text-align: center;
   margin-bottom: 16px;
   font-size: 1.2rem;
-  color: var(--color-subtext, #555);
+  color: var(--color-subtext, #afea5c);
 }
 
 .loading {

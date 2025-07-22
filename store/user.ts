@@ -4,6 +4,7 @@ export const useUserStore = defineStore('user', {
   state: () => ({
     users: [] as { id: number; name: string; email: string }[],
     isLoading: false,
+    selectedUserId: null as number | null,
   }),
 
   actions: {
@@ -18,6 +19,14 @@ export const useUserStore = defineStore('user', {
       } finally {
         this.isLoading = false
       }
+    },
+
+    selectUser(id: number) {
+      this.selectedUserId = id
+    },
+
+    getUserById(id: number) {
+      return this.users.find(u => u.id === id)
     },
   },
 })
